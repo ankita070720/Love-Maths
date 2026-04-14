@@ -1,0 +1,84 @@
+
+
+
+
+.heading{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading img{
+    width: 40px;
+    height: 40px;
+    
+}
+.heading h1{
+    font-size: 2rem;
+    padding-left: 5px;
+}
+
+#full-area{
+    margin: 0 auto;
+ background-color: #f3f3f3;
+     width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+
+/* .btn-lg::after{
+    content: attr('data-type');
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+    left: -0.5em;
+} */
+.controls-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.controls-area .icon-area{
+     width: 55px;
+    height: 55px;
+    outline: 3px solid;
+}
+
+.controls-area .icon-area:hover, .controls-area .icon-area:focus {
+    width: 55px !important;
+    height: 55px !important;
+    background-color: inherit !important;
+  color: inherit !important;
+  border-color: inherit !important;
+  outline: inherit !important;
+
+}
+.controls-area .icon-area button i{
+     font-size: 1.5rem;
+}
+.controls-area .icon-area i:hover{
+     font-size: 1.5rem !important;
+}
+.score-area {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.question-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type=submit] {
+    width: 35%;
+    border: 2px solid #445361;
+    background: #445361;
+    color: #fff;
+    font-size: 1rem;
+}
+.score-area p {
+    margin-right: 50px;
+}
